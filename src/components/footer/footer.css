@@ -1,0 +1,26 @@
+.footer {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(221, 61, 8);
+    align-items: center;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer p{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.social-footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+    }
+}

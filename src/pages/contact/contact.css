@@ -1,0 +1,40 @@
+.contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    clear: both;
+}
+
+form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+form button {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgb(11, 160, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+    }
+    form input, form textarea {
+        width: 80%;
+    }
+}

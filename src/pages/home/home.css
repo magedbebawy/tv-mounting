@@ -1,0 +1,53 @@
+.home {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image{
+    background-image: url('../../assets/tv3.webp');
+    height: 80vh;
+    background-color: rgb(139, 136, 136);
+    background-blend-mode: multiply;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.image h2, .image h3{
+    color: rgb(221, 61, 8);
+    width: 100%;
+    float: left;
+}
+
+.image h2{
+    margin-top: 200px;
+}
+
+.image a{
+    background-color: rgb(221, 61, 8);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.prevWork{
+    background-color: yellow;
+}
+
+.reviews {
+    background-color: blue;
+}
+
+@media screen and (max-width: 600px){
+    .home {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+}

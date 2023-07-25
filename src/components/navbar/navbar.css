@@ -1,0 +1,67 @@
+.social {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    margin-left: 10%;
+}
+.link {
+    float: left;
+    padding: 10px 20px;
+}
+
+.book {
+    float: right;
+    background-color: rgb(221, 61, 8);
+    height: 50px;
+    line-height: 35px;
+    padding: 0 10px;
+    margin-right: 10%;
+}
+
+.info {
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info .phone, .info .logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.tabs {
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: rgb(221, 61, 8);
+}
+
+.tabs a {
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 378px) {
+    .social {
+        width: 100%;
+    }
+    .social, .links {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    .book {
+        line-height: 20px;
+    }
+}
